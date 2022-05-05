@@ -1,0 +1,27 @@
+html, body{
+    font-family: 'Lato', sans-serif;
+    min-height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    text-align: center;
+}
+
+.wrap {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.main_header{
+    display: flex;
+    background: #FFFFFF;
+    opacity: 0.5;
+    box-shadow: 0px 10px 44px rgba(0, 0, 0, 0.1);
+    height: 100px;
+}
