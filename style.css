@@ -9,10 +9,6 @@ html, body{
     box-sizing: border-box;
 }
 
-.center{
-    text-align: center;
-}
-
 .wrap {
     width: 1140px;
     margin: 0 auto;
@@ -24,4 +20,15 @@ html, body{
     opacity: 0.5;
     box-shadow: 0px 10px 44px rgba(0, 0, 0, 0.1);
     height: 100px;
+}
+
+.center {
+	width: 900px;
+	margin: 0 auto;
+	outline: 2px solid blue;
+}
+
+.block {
+	margin-bottom: 20px;
+	background-color: coral;
 }
