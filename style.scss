@@ -1,0 +1,139 @@
+html, body{
+    font-family: 'Josefin Sans', sans-serif;
+    min-height: 100vh;
+    background: url(images/background-image.png);
+    background: linear-gradient(348.89deg, rgba(255, 255, 255, 0) 8.92%, #FFE6F8 88.89%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.main_header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.logo-link{
+    padding-top: 27px;
+}
+
+.center {
+	width: 900px;
+	margin: 0 auto;
+	outline: 2px solid blue;
+}
+
+.block {
+	margin-bottom: 20px;
+	background-color: coral;
+}
+
+.header-link{
+    font-size: 18px;
+    line-height: 24px;
+    color: #2E2594;
+    text-decoration: none;
+}
+
+.col1{
+    margin-top: 27px;
+    width: 165px;
+    height: 40px;
+}
+
+.col2{
+    margin-top: 22px;
+    height: 50px;
+    width: 580px;
+}
+
+.link-gap{
+    padding-right: 50px;
+}
+
+.contact-gap{
+    padding-right: 30px;
+}
+
+.new-games-that-you-enjoy{
+    display: flex;
+    justify-content: space-between;
+}
+
+.get-started-link{
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #B53071;
+    border-radius: 25px;
+    padding-top: 13px; 
+    padding-left: 35px;
+    padding-right: 34px;
+    padding-bottom: 14px;
+    border: none;
+}
+
+.get-started-for-free{
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 13px 33px;
+    background: #B53071;
+    border-radius: 25px;
+    border: none;
+    display: inline;
+}
+
+.gaming-text{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    line-height: 24px;
+    color: #332B5C;
+    padding-bottom: 40px;
+}
+
+.gaming-title{
+    font-family: 'Josefin Sans';
+    font-size: 58px;
+    line-height: 68px;
+    color: #171147;
+    padding-bottom: 36px;
+}
+
+.games-bold{
+    color: #D5356F;
+}
+
+.game-tournament-text{
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E299A;
+    padding-bottom: 30px
+}
+
+
+.new-games-block1{
+    margin-top: 175px;
+    margin-right: 31px;
+}
+
+
+.watch-trailer{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    line-height: 24px;
+    color: #2E299A;
+    display: inline;
+}
